@@ -21,7 +21,6 @@ function App() {
 
   return (
     <div className="App ">
-      name
       <UserAuthContextProvider>
         <Routes>
           <Route path="/" element={<HomePage />} />
